@@ -2,7 +2,7 @@ package dalab1.javaD;
 
 import java.util.HashMap;
 
-public class LottoMain{
+public class LottoMain{ // 파일 내 클래스가 하나밖에 존재하지 않기 때문에 클래스명을 파일명과 같도록 입력해야 한다
     public static void main(String[] args) {
         HashMap<String, String> map = new HashMap<String, String>();
         map.put("Ashal", "멘토");
