@@ -47,6 +47,16 @@ import java.io.IOException;
     }
 }
 
+//파일에 문자를 쓰기 위해 파일과 연결된 PrintStream 클래스 생성
+class PrintStream {
+     // print()계열 메소드 사용
+}
+
+//예외처리를 위한 성적 예외 클래스
+class ScoreException {
+
+}
+
 public class IOTest  {
     public static void main(String[] args) throws IOException {
         // "data.txt"에 access해서 read하기 위한 객체 생성
