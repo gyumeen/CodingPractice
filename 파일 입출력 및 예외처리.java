@@ -49,9 +49,21 @@ import java.io.IOException;
 
 public class IOTest  {
     public static void main(String[] args) throws IOException {
+        // "data.txt"에 access해서 read하기 위한 객체 생성
         BufferedReader br = new BufferedReader(new FileReader("C:/자바 지운/data.txt"));
 
         br.close();
+
+        // "output.text"에 access해서 write하기 위한 객체 생성
+
+
+        // Student array 선언 (array size: 10)
+
+
+        /* "data.txt"로부터 한 라인씩 읽고 student array에 차례대로 객체를 생성 후,
+           객체 정보를 "output.txt"에 쓰고 화면에도 출력하는 코드*/
+
+
     }
 }
 
