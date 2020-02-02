@@ -1,3 +1,3 @@
 # CodingPractice
 
-<h5>"연습"</h5>
+<h5>Practice Coding</h5>
