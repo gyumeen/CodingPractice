@@ -15,6 +15,5 @@ public class NumberPyramid {
             }
             System.out.println();
         }
-
     }
 }
