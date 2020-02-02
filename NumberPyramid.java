@@ -5,10 +5,10 @@ public class NumberPyramid {
         
         System.out.println("Input the number which you want to make a pyramid");
         
-        Scanner scannedNumber = new Scanner(System.in);
-        int inputtedNumber = scannedNumber.nextInt();
+        Scanner scannedPyramidNumber = new Scanner(System.in);
+        int inputtedPyramidNumber = scannedPyramidNumber.nextInt();
         
-        for(int i = 1; i < inputtedNumber + 1; i++) {
+        for(int i = 1; i < inputtedPyramidNumber + 1; i++) {
             for(int j = 1; j < i + 1; j++) {
                 if(j > i){break;}
                 System.out.print(j * i + " ");
