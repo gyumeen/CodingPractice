@@ -1,3 +1,4 @@
+// GregorianCalendar 클래스에 있는 isLeapYear 메소드를 활용
 import java.util.GregorianCalendar;
 import java.util.Scanner;
 
@@ -14,6 +15,8 @@ public class LeapYearCheck {
             } else System.out.println(verifyingLeapYearNumber +" = "+ "평년");
 
             /*
+            GregorianCalendar 패키지 미사용
+            
             if(verifyingLeapYearNumber % 4 == 0 && verifyingLeapYearNumber % 100 != 0 || verifyingLeapYearNumber % 400 == 0) {
                 System.out.println(verifyingLeapYearNumber +" = "+ "윤년");
             } else System.out.println(verifyingLeapYearNumber +" = "+ "평년");
