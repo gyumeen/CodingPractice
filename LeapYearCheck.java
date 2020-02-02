@@ -22,6 +22,5 @@ public class LeapYearCheck {
             } else System.out.println(verifyingLeapYearNumber +" = "+ "평년");
             */
         }
-
     }
 }
