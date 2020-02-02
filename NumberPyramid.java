@@ -10,7 +10,7 @@ public class NumberPyramid {
         
         for(int i = 1; i < inputtedPyramidNumber + 1; i++) {
             for(int j = 1; j < i + 1; j++) {
-                if(j > i){break;}
+                if(j > i) break;
                 System.out.print(j * i + " ");
             }
             System.out.println();
