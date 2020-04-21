@@ -1,3 +1,4 @@
+//윤년, 평년 문제
 // GregorianCalendar 클래스에 있는 isLeapYear 메소드를 활용
 import java.util.GregorianCalendar;
 import java.util.Scanner;
