@@ -1,3 +1,4 @@
+// 숫자로 피라미드 모양 만들기 문제
 import java.util.Scanner;
 
 public class NumberPyramid {
